@@ -1,0 +1,15 @@
+#mother table {
+ margin: auto;
+}
+#mother table tr td {
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+#mother table {
+    margin-top: 10px;
+}
+#mother th {
+  border: 1px solid black;
+  background-color: whitesmoke;
+  padding: 10px;
+}

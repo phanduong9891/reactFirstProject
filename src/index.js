@@ -4,6 +4,9 @@ import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Relatives from "./routes/Relatives";
+import RelativesPost from "./routes/RelativesPost";
+//haha
+import RelativesUpdate from "./routes/RelativesUpdate";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -13,11 +16,14 @@ root.render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="Relatives" element={<Relatives />} />
+          <Route path="/addRelatives" element={<RelativesPost />}/>
+          <Route path="/updateRelatives" element={<RelativesUpdate />}/>
         </Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

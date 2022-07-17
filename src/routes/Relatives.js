@@ -112,7 +112,7 @@ export default function Relatives() {
 
   return (
     <div id="mother">
-      <button type="button" class="btn btn-primary" onClick={getAllRelatives}>
+      <button type="button" class="btn btn-secondary rounded-pill mt-2" onClick={getAllRelatives}>
         Show all relatives
       </button>
       <div id="table-content"></div>
